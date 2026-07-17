@@ -1,34 +1,33 @@
-## ⚡ Groq-Powered Instant AI
+<div align="center">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=8,14,20&text=GroqCLI&fontColor=9ece6a&fontSize=72&fontAlignY=38&desc=Zero-latency%20AI%20at%20the%20speed%20of%20thought.&descColor=b9f27c&descSize=18&descAlignY=58&animation=fadeIn" />
+<br/>
 
-Most AI implementations are bottlenecked by expensive token costs and high-latency API calls. This project solves that by utilizing **Groq's LPU (Language Processing Unit)** technology to create a Python-based interface that is:
+[![Python](https://img.shields.io/badge/Python-3.8+-9ece6a?style=for-the-badge&logo=python&logoColor=black)](#)
+[![Groq](https://img.shields.io/badge/Groq-Hardware%20Accelerated-b9f27c?style=for-the-badge)](#)
+</div>
 
-1. **Lightweight:** No heavy libraries; just pure, fast execution.
-2. **Instant:** Designed for workflows where speed is the primary constraint.
-3. **Sustainable:** Uses Groq's free-tier API to provide "Pro" level performance at zero cost.
+---
 
-### 🚀 Performance Goal
-To prove that through efficient API routing and hardware-specific optimization, we can achieve inference speeds that rival or exceed paid proprietary models.
+## Why Groq?
 
-### 📦 Installation
-**Step1**- Clone the repository: https://github.com/PhaNtoM-GHosT-11101/SimpleCLI-Based-AI-Groq.git 
-**Step2**- Install dependencies: pip install groq rich python-dotenv 
-**Step3**- Create a .env file in the root directory and add your Groq API key: 
-**Step4**- Run the script: python grok.py 
+OpenAI and Anthropic run on GPU clusters with queues, costs, and rate limits. Groq built custom LPU hardware that delivers AI inference at near-instant speeds. This project is a lightweight Python bridge that puts that raw speed in your terminal.
 
-### 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Features
+- Near-Zero Latency — 500+ tokens/sec via Groq LPU
+- CLI First — Simple query-response loop
+- Conversation Memory — Maintains context across queries
+- Model Selection — Switch between Llama 3, Mixtral, Gemma
 
-### Drawback
-- It has no past data : it doesn't remember old chats.
-- It is not up to Date.
-- It knowledge cutoff is August 2024 
+## Quick Start
+```bash
+git clone https://github.com/PhaNtoM-GHosT-11101/SimpleCLI-Based-AI-Groq
+cd SimpleCLI-Based-AI-Groq
+pip install groq
+# Add GROQ_API_KEY to .env (free at console.groq.com)
+python main.py
+```
 
-### Best Use Case
-- It is best for simple tasks like defination, summary, etc.
-- Barely taking any memory. (50 mb)
-- It is fast, best for quick answers.
-
-### 📝 Author
-**Aditya Priyadarshi**
-
-
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=8,14,20&height=100&section=footer" />
+<sub>Built for speed — by <b>Aditya Priyadarshi</b></sub>
+</div>
